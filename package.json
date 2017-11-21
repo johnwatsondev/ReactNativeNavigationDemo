@@ -1,0 +1,28 @@
+{
+  "name": "ReactNativeNavigationDemo",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest-expo": "^22.0.0",
+    "react-test-renderer": "16.0.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "rc-start": "npm start -- --reset-cache",
+    "clean": "watchman watch-del-all && rm -rf $TMPDIR/react-* && rm -rf node_modules && npm install",
+    "full-clean": "watchman watch-del-all && rm -rf $TMPDIR/react-* && rm -rf node_modules && npm cache clean && npm install",
+    "clean-start": "npm run clean && npm run rc-start"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "react": "16.0.0",
+    "react-native": "0.50.0",
+    "react-navigation": "git+https://git@github.com/johnwatsondev/react-navigation.git#master"
+  }
+}
