@@ -23,6 +23,7 @@
   "dependencies": {
     "react": "16.0.0",
     "react-native": "0.50.0",
+    "prop-types": "15.6.0",
     "react-navigation": "git+https://git@github.com/johnwatsondev/react-navigation.git#master"
   }
 }
