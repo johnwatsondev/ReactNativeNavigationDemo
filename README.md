@@ -2,6 +2,9 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 
 Then just eject it with `npm run eject`.
 
+## Story of this project
+
+Please reading this [article](http://johnwatsondev.com/2017/11/23/you-must-know-the-knowledge-of-react-navite-navigation).
 
 ## Build Env
 
